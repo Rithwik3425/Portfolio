@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,600;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(3, 0, 56);
+  color: white;
+}
+
+.navbar {
+  left: 0;
+  top: 0;
+  width: 200vh;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  background: rgb(7, 3, 74);
+}
+.logo {
+  padding: 10px 80px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px 80px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+
+.about,
+.services,
+.home {
+  color: white;
+  text-decoration: none;
+}
+.contact {
+  margin-right: 25px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact:active,
+.about:active,
+.services:active,
+.home:active {
+  color: rgb(0, 157, 255);
+}
+.btn:hover {
+  color: rgb(0, 157, 255);
+}
+
+.homepage,
+.aboutpage,
+.servicespage {
+  height: 80vh;
+  margin: 80px;
+  display: flex;
+}
+
+.home-left {
+  width: 800px;
+}
+
+.text1 {
+  color: rgba(255, 255, 255, 0.715);
+  margin-top: 150px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.textname {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text2 {
+  color: rgba(255, 255, 255, 0.715);
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.element {
+  color: rgb(0, 166, 255);
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-right img {
+  height: 550px;
+}
+
+.about-right {
+  margin: 60px;
+}
+.about-left img {
+  margin: 80px;
+  width: 600px;
+}
+
+.aboutme {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutmetext1 {
+  margin-left: 10px;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.reactimgtext {
+  display: flex;
+  align-items: center;
+}
+.about-right img {
+  width: 40px;
+}
+
+.aboutmetext2 {
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+.findmore {
+  margin: 40px 0px;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.findmore:hover {
+  background: white;
+  border: 1px solid rgb(0, 157, 255);
+  box-shadow: 0 0 20px rgb(0, 157, 255);
+  color: rgb(0, 157, 255);
+}
+
+.servicespage {
+  display: flex;
+  flex-direction: column;
+}
+.servicestext1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 157, 255);
+}
+
+.servicecontainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+}
+
+.serviceleft,
+.serviceright {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid white;
+  width: 600px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.servicetext2 {
+  margin: 20px;
+}
+
+.reactlogo,
+.figmalogo {
+  width: 80px;
+  margin: 20px;
+  transition: all 0.5s;
+}
+
+.servicestext2,
+.servicestext4 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.servicestext3,
+.servicestext5 {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+
+.serviceleft:hover {
+  .servicestext3 {
+    font-size: 23px;
+  }
+  .reactlogo {
+    width: 150px;
+    margin: 0px;
+  }
+  box-shadow: 0 0 20px rgb(0, 157, 255);
+}
+
+.serviceright:hover {
+  .servicestext5 {
+    font-size: 23px;
+  }
+  .figmalogo {
+    width: 150px;
+    margin: 0px;
+  }
+  box-shadow: 0 0 20px rgb(0, 157, 255);
+}
+
+.contactpage {
+  height: 80vh;
+  margin: 80px;
+}
+
+.contactcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacttext1 {
+  margin-left: 350px;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.facebook img,
+.twitter img,
+.instagram img,
+.github img,
+.linkedin img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.orr {
+  margin-top: 40px;
+  margin-left: 650px;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 1000px;
+}
+
+.containerform {
+  margin-right: 50px;
+}
+.name,
+.email,
+.number {
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.message {
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 210px;
+  background: transparent;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.conatiner {
+  display: flex;
+}
+
+.sumbit {
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  background: rgb(0, 157, 255);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 400px;
+  transition: all 0.5s;
+}
+
+.sumbit:active,
+.sumbit:hover {
+  box-shadow: 0 0 20px white;
+  background-color: white;
+  color: rgb(0, 157, 255);
+}
+
+.footter {
+  height: 20vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.htmlcssjs {
+  width: 200px;
+}

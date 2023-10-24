@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rithwik's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Portfolio</div>
+      <div class="nav-right">
+        <button class="btn">
+          <a href="#homepage" class="home">HOME</a>
+        </button>
+        <button class="btn">
+          <a href="#abouthr" class="about">ABOUT</a>
+        </button>
+        <button class="btn">
+          <a href="#serviceshr" class="services">SERVICES</a>
+        </button>
+        <button class="contact">
+          <a href="#conntacthr" class="contact">CONTACT</a>
+        </button>
+      </div>
+    </div>
+
+    <section class="homepage" id="homepage">
+      <div class="home-left">
+        <div class="text1">Hello, I am</div>
+        <div class="textname">Rithwik Chimmani</div>
+        <div class="text2">and I am a</div>
+        <span id="element" class="element"></span>
+      </div>
+      <div class="home-right">
+        <img src="./home_right_image.png" alt="" />
+      </div>
+    </section>
+
+    <hr id="abouthr" />
+
+    <section class="aboutpage" id="aboutpage">
+      <div class="about-left">
+        <img src="./about_left_image_2.png" alt="" />
+      </div>
+      <div class="about-right">
+        <div class="aboutme">About me</div>
+        <div class="reactimgtext">
+          <img src="./react-js-icon.png" alt="" />
+          <div class="aboutmetext1">React Developer and more...</div>
+        </div>
+        <div class="aboutmetext2">
+          I'm a versatile individual who finds joy in a variety of activities.
+          Drawing is my creative outlet, where I can turn my imagination into
+          art. On the football field, I relish the competition and camaraderie
+          that comes with the sport. When it comes to mental challenges, I'm a
+          fan of competitive programming, where I constantly sharpen my
+          problem-solving skills. As a React developer and frontend enthusiast,
+          I merge my creative and logical sides to craft user-friendly web
+          applications. My life is a blend of creativity, competition, and
+          coding, and I'm always eager to take on new challenges in these areas.
+        </div>
+        <button class="findmore">Find more</button>
+      </div>
+    </section>
+
+    <hr id="serviceshr" />
+
+    <section class="servicespage" id="servicespage">
+      <div class="servicestext1">SERVICES</div>
+      <div class="servicecontainer">
+        <div class="serviceleft">
+          <div class="serviceleftlogo">
+            <img src="./react-js-icon.png" alt="" class="reactlogo" />
+            <div class="servicestext2">WEB DEVELOPMENT</div>
+            <div class="servicestext3">
+              React is a popular JavaScript library for building user
+              interfaces. It uses a component-based approach, a Virtual DOM for
+              performance, and enforces a one-way data flow. JSX simplifies UI
+              development, and React has a robust ecosystem with strong
+              community support.
+            </div>
+          </div>
+        </div>
+        <div class="serviceright">
+          <img src="./figma.png" alt="" class="figmalogo" />
+          <div class="servicestext4">WEB DESIGN</div>
+          <div class="servicestext5">
+            Web design involves creating visually appealing and user-friendly
+            websites by focusing on layout, colors, typography, and content
+            organization to provide an optimal user experience. It combines
+            aesthetics with functionality for effective online communication.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr id="conntacthr" />
+
+    <section class="contactpage" id="contacthere">
+      <div class="contacttext1">You can contact me here</div>
+      <div class="contactcontainer">
+        <div class="facebook">
+          <a
+            href="https://www.facebook.com/profile.php?id=100087260054410"
+            target="_blank"
+            ><img src="./facebook.png" alt=""
+          /></a>
+        </div>
+        <div class="twitter">
+          <a href="https://twitter.com/Rithwik3425" target="_blank"
+            ><img src="./twitter.png" alt=""
+          /></a>
+        </div>
+        <div class="instagram">
+          <a href="https://www.instagram.com/rithwik.chimmani/" target="_blank"
+            ><img src="./insta.png" alt=""
+          /></a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/Rithwik3425" target="_blank"
+            ><img src="./github.png" alt=""
+          /></a>
+        </div>
+        <div class="linkedin">
+          <a
+            href="https://www.linkedin.com/in/rithwik-chimmani-883277255/"
+            target="_blank"
+            ><img src="./linkedin.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="orr">OR</div>
+      <form class="form">
+        <div class="conatiner">
+          <div class="containerform">
+            <input type="text" placeholder="Full name " class="name" />
+            <input type="email" placeholder="Your Email" class="email" />
+            <input type="text" placeholder="Your phone number" class="number" />
+          </div>
+          <input type="text" placeholder="Your message" class="message" />
+        </div>
+        <button type="submit" class="sumbit">Send message</button>
+      </form>
+    </section>
+
+    <hr id="footterr" />
+
+    <footer class="footter">
+      <div class="footertext1">
+        © 2023 Rithwik Chimmani | All rights reserved | Made with
+      </div>
+      <img src="./htmlcssjs.png" alt="" class="htmlcssjs" />
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Web Designer",
+          "Guitar player",
+          "Goat 🐐 fan",
+          "React Developer",
+        ],
+        typeSpeed: 40,
+      });
+    </script>
+  </body>
+</html>
